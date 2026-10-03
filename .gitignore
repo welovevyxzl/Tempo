@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output (installers are published as GitHub Releases)
+dist/
+out/
+
+# Logs & debug
+*.log
+npm-debug.log*
+builder-debug.yml
+
+# Local tooling / editor
+.claude/
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+.env
+.env.*
